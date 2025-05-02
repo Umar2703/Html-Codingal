@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    Paragraphs and Headings
+  </title>
+</head>
+<body>
+    <h1>Welcome to Codingal</h1>
+<h2>Welcome to Codingal</h2>
+<h3>Welcome to Codingal</h3>
+<h4>Welcome to Codingal</h4>
+<h5>Welcome to Codingal</h5>
+<h6>Welcome to Codingal</h6>
+<p>
+  My name is Umar
+</p>
+</body>
+</html>
