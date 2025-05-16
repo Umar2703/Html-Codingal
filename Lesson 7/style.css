@@ -1,0 +1,19 @@
+h3{
+    color: gold;
+}
+*{
+    font-size:100px ;
+    font-weight: 600;
+}
+h4{
+    color: coral;
+}
+.myclass{
+    color:cornflowerblue ;
+}
+#myid{
+    color: olivedrab;
+}
+h5,p{
+    color: tomato;
+}
