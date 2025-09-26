@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="background">
+        <h1>changing bg</h1>
+    <button onclick="clickfunction()">click me</button></div>
+    <script>
+        function clickfunction(){
+            let bg =document.getElementById('background');
+            let colors = ["red" , "orange","yellow",'blue','green','purple',"indigo"];
+            const colorIndex = parseInt(Math.random()*colors.length);
+            bg.style.backgroundColor = colors[colorIndex];
+        }
+    </script>
+</body>
+</html>
