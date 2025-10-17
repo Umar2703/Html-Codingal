@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            background-color: #f9f6ef;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+
+            position: relative;
+
+        }
+
+        .topnav a {
+            color: #333;
+
+            text-decoration: none;
+
+            font-size: 17px;
+
+            padding: 10px;
+
+            position: relative;
+
+            transition: color 0.3s ease;
+        }
+
+        .topnav a:hover {
+            color: #0078d7;
+        }
+
+        .topnav a::after {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+
+            bottom: 0;
+
+            width: 0%;
+
+            height: 3px;
+
+            background-color: #0078d7;
+
+            transition: width 0.3s ease;
+        }
+
+        .topnav a:hover::after {
+
+            width: 100%;
+
+        }
+
+        .topnav a.active::after {
+
+            width: 100%;
+
+        }
+
+        .topnav a.active {
+
+            color: #0078d7;
+
+            font-weight: bold;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; font-weight: 900; font-family: 'Times New Roman', Times, serif;">Football Facts and
+        The Legends</h1>
+    <div class="topnav">
+        <a class="active" href="football.html">football</a>
+        <a href="FunFacts.html">FunFacts</a>
+        <a href="BestPlayers.html">Best Players of all time</a>
+        <a href="GalleryAboutLegend.html">GalleryAboutLegend</a>
+    </div>
+This is Football page
+</body>
+
+</html>
