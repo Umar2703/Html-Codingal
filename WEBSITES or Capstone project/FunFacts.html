@@ -80,14 +80,43 @@
 
         }
         .footer{
-            position: fixed;
-            left: 0;
+                      left: 0;
             bottom: 0;
             width: 100%;
             background-color: black;
             color: white;
             text-align: center;
  }
+ 
+    ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Arrange list items horizontally */
+  gap: 20px; /* Add space between list items */
+  background-color: #f0f0f0; /* Light background for the list */
+  border-radius: 8px; /* Rounded corners for the list container */
+  padding: 10px 20px; /* Internal padding for the list */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+li {
+  font-family:'Times New Roman', Times, serif ; /* Modern font */
+  font-size: 18px;
+  color: #333;
+  position: relative; /* For custom indicators/effects */
+  cursor: pointer; /* Indicate interactivity */
+  font-weight: 700;
+}
+
+li::before {
+  content: '•'; /* Custom bullet point (or any character/icon) */
+  color: darkslategrey; /* Accent color for the bullet */
+  margin-right: 8px;
+}
+
+
+ 
     </style>
     <title>Document</title>
 </head>
@@ -101,6 +130,33 @@
         <a href="BestPlayers.html">Best Players of all time</a>
         <a href="GalleryAboutLegend.html">GalleryAboutLegend</a>
     </div>
+    <h1 style="text-align: center; text-shadow: 2px 2px 10px rgba(0,0,0,1)">Fun facts about association football (soccer)</h1>
+    
+    <ul>  
+       <li> Fastest red card: Lee Todd was given a red card just two seconds into a game in 2000 for shouting "f--- me, that was
+        loud" after the referee's whistle blew.</li><br>
+        <li>Dog finds the trophy: The Jules Rimet World Cup trophy was stolen in England in 1966 but was found a week later by a dog
+        named Pickles, wrapped in newspaper under a bush.</li><br>
+       <li> Highest-scoring game: The highest-scoring professional soccer game on record was a 149–0 match in Madagascar in 2002.
+        One team intentionally scored 149 own goals to protest referee decisions.</li><br>
+       <li> No barefoot players: India withdrew from the 1950 World Cup because FIFA refused to let their team play barefoot.</li><br>
+        <li>Smallest professional footballer: At just 5 feet tall, Marcin Garuch is one of the smallest professional footballers in
+        the world.</li><br>
+       <li> Origins in China: The earliest form of a kicking game for which there is historical evidence is cuju, played in China as
+        early as the 2nd century BC.</li><br>
+        <li> home loss: Chelsea manager José Mourinho once went 150 home games over nine years without a single home defeat across
+        various clubs.</li><br>
+        <li> First televised match: The first televised soccer game was a practice match between Arsenal and their reserves in 1937.</li><br>
+        <li> No games on a pitch: The English FA banned women from playing on official pitches from 1921 to 1971, claiming the sport
+        was "quite unsuitable for females".</li><br>
+    <li>  The floating field: The Float at Marina Bay in Singapore is the world's largest floating soccer field.
+        Goalkeeper goal record: Brazilian goalkeeper Rogério Ceni scored 131 career goals, mostly from free kicks and penalties,
+        making him the highest-scoring goalkeeper of all time.</li><br>
+    <li>Soccer or football?: The term "soccer" originated in England in the 1880s as a slang abbreviation for "association"
+        (football).</li><br>
+       
+       
+    </ul>
     <div class="footer">
 <p>©2025 Iconic XI.All Rights Reserved</p>
     </div>

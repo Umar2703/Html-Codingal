@@ -80,7 +80,6 @@
 
         }
         .footer{
-            position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
@@ -88,6 +87,42 @@
             color: white;
             text-align: center;
  }
+ .main-header {
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgb(49, 3, 156);
+    z-index: 100;
+    color: white;
+}
+
+.nav-links  {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+    position: relative;
+    background-color: #1a1a1a;
+}
+
+.nav-links  p:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color, #e73827);
+    transition: width 0.3s ease;
+}
+
+.nav-links p:hover::after {
+    width: 100%;
+}
     </style>
     <title>Document</title>
 </head>
@@ -101,6 +136,38 @@
         <a href="BestPlayers.html">Best Players of all time</a>
         <a href="GalleryAboutLegend.html">GalleryAboutLegend</a>
     </div>
+   <div style="background-color: #1a1a1a;"> <h1 class="main-header">About soccer: The world's most popular sport</h1>
+   <p  class="nav-links">Soccer, or association football, is a team sport played by two teams of 11 players on a rectangular field called a
+    pitch. The objective is to score more goals than the opposing team by moving the ball into their goal, primarily using
+    feet, the head, or the torso. It is the most popular sport globally, with an estimated 250 million players in over 200
+    countries.</p><br>
+    <h1 class="main-header">History and governance
+    </h1>
+    <p  class="nav-links">Origin: The modern version of soccer originated in England in the 19th century. The Football Association was formed in
+    1863 to standardize the rules of the game.
+    International body: The sport is now governed globally by the Fédération Internationale de Football Association (FIFA).
+    World Cup: FIFA oversees international competitions, most notably the men's World Cup, first held in 1930, and the
+    women's World Cup, which began in 1991.</p><br>
+        <h1 class="main-header">Basic rules and gameplay
+    </h1>
+    <p class="nav-links">Game time: A professional match consists of two 45-minute halves, with "stoppage time" added by the referee at the end
+    of each half to account for delays. A 15-minute halftime break separates the two halves.
+    Scoring: The team that scores the most goals wins. Depending on the competition, a tied score at the end of regulation
+    can result in a draw, extra time, or a penalty shoot-out.
+    No hands or arms: With the exception of the goalkeeper, players are not allowed to use their hands or arms to touch the
+    ball.
+    Fouls: Infractions result in free kicks, with more serious fouls within the penalty area resulting in a penalty kick for
+    the attacking team.
+    Cards: The referee uses yellow cards as a caution for misconduct and a red card for serious fouls, which results in
+    ejection from the game.</p><br>
+    <h1 class="main-header">Player positions
+</h1>
+<p class="nav-links">The 11 players on a team are typically organized into specific roles and formations:
+Goalkeeper: Defends the goal and is the only player permitted to use their hands within the penalty area.
+Defenders: Positioned in front of the goalkeeper to stop attacks from the opposing team.
+Midfielders: Play a crucial role in both offense and defense, linking the defenders and forwards.
+Forwards (Strikers): Primarily responsible for creating and finishing goal-scoring opportunities.
+</p></div>
 <div class="footer">
     <p>©2025 Iconic XI.All Rights Reserved</p>
 </div>
